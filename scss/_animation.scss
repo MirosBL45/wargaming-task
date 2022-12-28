@@ -1,0 +1,129 @@
+#conExercise1ki {
+	animation: leftEntranceFirst 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes leftEntranceFirst {
+	0% {
+		left: -200px;
+		top: -200px;
+		background: greenyellow;
+	}
+
+	75% {
+		left: 8px;
+		top: 8px;
+		background: red;
+	}
+
+	100% {
+		left: 0;
+		top: 0;
+	}
+}
+
+#conExercise2ki {
+	animation: topEntranceFirst 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes topEntranceFirst {
+	0% {
+		top: -200px;
+		background: silver;
+	}
+
+	75% {
+		top: 8px;
+		background: gray;
+	}
+
+	100% {
+		top: 0;
+	}
+}
+
+#conExercise3ki {
+	animation: rightEntranceFirst 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes rightEntranceFirst {
+	0% {
+		right: -200px;
+		background: rgba(19, 16, 16, 0.336);
+	}
+
+	75% {
+		right: 8px;
+		background: rgba(245, 245, 245, 0.589);
+	}
+
+	100% {
+		right: 0;
+	}
+}
+
+#conExercise4ki {
+	animation: dleftEntranceFirst 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes dleftEntranceFirst {
+	0% {
+		left: -200px;
+		bottom: -200px;
+		background: rgba(19, 16, 16, 0.336);
+	}
+
+	75% {
+		left: 8px;
+		bottom: 8px;
+	}
+
+	100% {
+		left: 0;
+		bottom: 0;
+	}
+}
+
+#conExercise5ki {
+	animation: bottomEntranceFirst 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes bottomEntranceFirst {
+	0% {
+		bottom: -200px;
+		background: whitesmoke;
+	}
+
+	75% {
+		bottom: 8px;
+		background: black;
+	}
+
+	100% {
+		bottom: 0;
+	}
+}
+
+#footero {
+	position: relative;
+	animation: leftentrance 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes leftentrance {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
